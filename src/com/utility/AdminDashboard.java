@@ -12,7 +12,7 @@ public class AdminDashboard {
         JButton userManagementButton = new JButton("User Management");
         JButton consumptionButton = new JButton("Monitor Consumption");
         JButton reportButton = new JButton("Generate Reports");
-        JButton graphButton = new JButton("View Consumption Graph");
+    
 
         userManagementButton.addActionListener(e -> new UserManagementModule());
         consumptionButton.addActionListener(e -> new ConsumptionMonitorModule());
@@ -22,7 +22,7 @@ public class AdminDashboard {
         frame.add(userManagementButton);
         frame.add(consumptionButton);
         frame.add(reportButton);
-        frame.add(graphButton);
+       
 
         frame.setVisible(true);
     }
